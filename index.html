@@ -166,11 +166,14 @@
                 <h2 class="section-title">Contato</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                    <form action="https://api.staticforms.xyz/submit" method="post" class="contact__form">
+                        <input type="hidden" name="accessKey" value="6eb7e9c9-4560-4b9e-b381-b579f64ad24c">
+                        <input type="hidden" name="redirectTo" value="https://emanuelmener.github.io/SiteResponsivePortifolio2021/">
+                        <input type="text" placeholder="Name" name="name" class="contact__input">
+                        <input type="mail" placeholder="Email" name="email" class="contact__input">
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea> 
+                        <!--<input type="button" value="Enviar" class="contact__button button">-->
+                        <button>Enviar Mensagem</button>
                     </form>
                 </div>
             </section>
