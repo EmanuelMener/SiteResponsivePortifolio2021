@@ -11,6 +11,19 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
+/*===== EFEITO MÁQUINA DE ESCREVER =====*/
+function typeWrite(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+        setTimeout(() => elemento.innerHTML += letra, 75 * i);
+    });
+}
+
+const titulo = document.querySelector('h3');
+typeWrite(titulo);
+
+
 /*===== ACTIVE AND REMOVE MENU =====*/
 const navLink = document.querySelectorAll('.nav__link');   
 
