@@ -295,16 +295,16 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 70%;
 }
 .skills__css{
-  width: 85%;
+  width: 30%;
 }
 .skills__js{
-  width: 65%;
+  width: 35%;
 }
 .skills__ux{
-  width: 85%;
+  width: 45%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -325,6 +325,7 @@ img{
 }
 .work__img img:hover{
   transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.226);
 }
 
 /* ===== CONTACT =====*/
