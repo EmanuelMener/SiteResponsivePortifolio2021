@@ -9,7 +9,7 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website complete</title>
+        <title>Emanuel | Portifólio</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -41,7 +41,7 @@
                 <div class="home__data">
                     <h1 class="home__title">Olá,<br>Eu sou <span class="home__title-color">Emanuel</span></h1> <h3>Contador e Desenvolvedor Web</h3>
 
-                    <a href="#" class="button">Contato</a>
+                    <a href="#contact" class="button">Contato</a>
                 </div>
 
                 <div class="home__social">
@@ -170,11 +170,15 @@
                     <form action="https://api.staticforms.xyz/submit" method="post" class="contact__form">
                         <input type="hidden" name="accessKey" value="6eb7e9c9-4560-4b9e-b381-b579f64ad24c">
                         <input type="hidden" name="redirectTo" value="https://emanuelmener.github.io/SiteResponsivePortifolio2021/">
-                        <input type="text" placeholder="Name" name="name" class="contact__input">
-                        <input type="mail" placeholder="Email" name="email" class="contact__input">
-                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea> 
+
+                        <input type="text" placeholder="Name" name="name" class="contact__input" required>
+
+                        <input type="mail" placeholder="Email" name="email" class="contact__input" required>
+
+                        <textarea name="message" placeholder="Escreva uma mensagem" id="" cols="0" rows="10" class="contact__input" required></textarea> 
+
                         <!--<input type="button" value="Enviar" class="contact__button button">-->
-                        <button>Enviar Mensagem</button>
+                        <button class="contact__button button">Enviar Mensagem</button>
                     </form>
                 </div>
             </section>
@@ -188,7 +192,7 @@
                 <a href="https://www.instagram.com/conthabilplus/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p>&#169; 2021 copyright all right reserved</p>
+            <p>&#169; 2021 copyright - todos os direitos reservados</p>
         </footer>
 
 
