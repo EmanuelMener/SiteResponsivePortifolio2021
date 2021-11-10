@@ -83,7 +83,7 @@ form .chamada{
     padding-bottom: 70px;
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    width: 66.5%;
 
 }
 
@@ -127,16 +127,17 @@ input{
     font: 1em sans-serif;
 
     /* Para dar o mesmo tamanho a todos os campo de texto */
-    width: 400px;
+    width:70%;
     max-width: 400px;
     height: 35px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
+    padding: 0;
     /* Para harmonizar o look & feel das bordas nos campos de texto*/
     border: 1px solid #999;
     border-radius: 0.4em;
     color: var(--first-color);
+    margin: 0 auto;
 
    
 }
@@ -145,12 +146,12 @@ input{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 16px;
 }
 
-input:focus, textarea:focus {
+input:focus {
     /* Dar um pouco de destaque nos elementos ativos */
     border-color: #000;
 
@@ -169,7 +170,7 @@ input:focus, textarea:focus {
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin: 0 auto;
-    width: 400px;
+    width: 70%;
     margin-top: 3em;
 
     background-color: var(--first-color);
@@ -180,4 +181,45 @@ input:focus, textarea:focus {
     border-radius: .5rem;
     text-align: center;
 
+}
+
+
+/* ===== MEDIA QUERIES=====*/
+@media screen and (max-width: 860px){
+  body{
+    margin: 0;
+  }
+
+  form {
+    /* Apenas para centralizar o form na página */
+    margin: 16px auto auto auto;
+    width: 600px;
+  }
+  
+}
+
+@media screen and (max-width: 640px){
+  body{
+    margin: 0;
+  }
+
+  form {
+    width: 80vw;
+  }
+  
+}
+
+@media screen and (max-width: 475px){
+  form h3{
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    justify-items: end;
+  }
+
+  form .imgLogin{
+    padding-right: 30%;
+    margin-top: 14px;
+  }
+  
 }
