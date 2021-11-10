@@ -164,6 +164,20 @@ header a span{
     transition: .5s;
   }
 }
+
+.Login{
+  width: 70px;
+  height: 30px;
+  background: var(--first-color);
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+}
+
+.alterar_cor{
+  color: white;
+}
+
 .nav__item{
   margin-bottom: var(--mb-4);
 }

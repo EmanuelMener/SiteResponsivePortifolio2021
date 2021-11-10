@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Login.css">
+
+    <link rel="shortcut icon" href="../assets/img/Frame-1.ico">
+
+    <title>Login | Usuário</title>
+</head>
+<body>
+
+    <form action="/pagina-processa-dados-do-form" method="post">
+        
+        <div class="chamada">
+            <div class="imgLogin"><img src="../assets/img/emanuelFotoCapa.jpg" alt=""></div>
+            <h3>Entre no seu perfil</h3>
+        </div>
+        
+        <div class="alinhamentoAoCentro">
+            <input placeholder="Usuário" type="text" id="nome" name="usuario_nome" />
+        </div>
+        <div class="alinhamentoAoCentro">
+            <input placeholder="Senha" type="password" id="password" name="usuario_email" />
+        </div>
+    
+        <input class="button" type="button" value = "Entrar" onclick="confirmar_senha_do_login(this.form)"/>
+        
+      
+    </form>
+
+    <script src="./Login.js"></script>
+
+    <script type="text/javascript">    
+            window.onload = function () {
+                
+                    window.alert("Cadastros e Logins ainda não liberados. Mas fique a vontade para retornar ao portifólio")
+            
+            };
+    </script>
+</body>
+</html>
