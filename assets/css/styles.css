@@ -459,6 +459,36 @@ textarea:valid{
   margin-top: 16px;
 }
 
+.whatsapp-link2 {
+  position: fixed;
+  width: 190px;
+  height: 115px;
+  bottom: 110px;
+  right: 5px;
+  background-color: #FE0000;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.whatsapp-link2>iframe {
+  position: fixed;
+  width: 190px;
+  height: 115px;
+  bottom: 110px;
+  right: 5px;
+  background-color: #FE0000;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
