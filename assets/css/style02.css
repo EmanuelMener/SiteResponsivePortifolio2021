@@ -17,7 +17,8 @@ body {
   padding-left: 1rem;
 }
 
-h1{
+h1,
+h2{
   font-size: 3rem;
   color: #fff;
   margin-bottom: 2rem;
@@ -25,12 +26,6 @@ h1{
   line-height: 1.2;
 }
 
-h2{
-  color: #fff;
-  
-  text-align: center;
-
-}
 
 h1::before {
   content: "📧";
@@ -108,13 +103,12 @@ h2::before {
 
 .Login2{
   width: 150px;
-  height: auto;
+  height: 30px;
   background: var(--first-color);
   border-radius: 8px;
   text-align: center;
   color: #fff;
   list-style: none;
- 
   text-align: center;
 }
 
@@ -124,5 +118,6 @@ h2::before {
 }
 
 .nav__item2{
-  margin-bottom: var(--mb-4);
+  /*margin-bottom: var(--mb-4);*/
+  margin-top: 30px;
 }
