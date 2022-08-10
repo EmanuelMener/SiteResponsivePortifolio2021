@@ -17,13 +17,19 @@ body {
   padding-left: 1rem;
 }
 
-h1,
-h2 {
+h1{
   font-size: 3rem;
   color: #fff;
   margin-bottom: 2rem;
   text-align: center;
   line-height: 1.2;
+}
+
+h2{
+  color: #fff;
+  
+  text-align: center;
+
 }
 
 h1::before {
@@ -32,7 +38,7 @@ h1::before {
 }
 
 h2::before {
-  content: "🐅";
+ /* content: "🐅";*/
   display: block;
 }
 
@@ -97,4 +103,26 @@ h2::before {
 .form button:focus {
   outline: none;
   background: #09d;
+}
+
+
+.Login2{
+  width: 150px;
+  height: auto;
+  background: var(--first-color);
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  list-style: none;
+ 
+  text-align: center;
+}
+
+.alterar_cor2{
+  color: white;
+
+}
+
+.nav__item2{
+  margin-bottom: var(--mb-4);
 }
