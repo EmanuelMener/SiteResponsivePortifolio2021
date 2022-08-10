@@ -176,7 +176,7 @@
                 <h2 class="section-title">Contato</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="https://api.staticforms.xyz/submit" method="post" class="contact__form">
+                    <!--<form action="https://api.staticforms.xyz/submit" method="post" class="contact__form">
                         <input type="hidden" name="accessKey" value="6eb7e9c9-4560-4b9e-b381-b579f64ad24c">
                         <input type="hidden" name="redirectTo" value="https://emanuelmener.github.io/portifolio/#contact">
 
@@ -186,9 +186,30 @@
 
                         <textarea name="message" placeholder="Escreva uma mensagem" id="" cols="0" rows="10" class="contact__input" required></textarea> 
 
-                        <!--<input type="button" value="Enviar" class="contact__button button">-->
+                        
                         <button class="contact__button button">Enviar Mensagem</button>
-                    </form>
+                    </form>-->
+
+                    <form
+                        action="https://formsubmit.co/emdeveducation@gmail.com"
+                        method="post"
+                        class="contact__form"
+                        >
+                        <label for="name">Nome</label>
+                        <input type="text" placeholder="Name" name="name" class="contact__input" required/>
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="Email" name="email" class="contact__input" required />
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" placeholder="Escreva uma mensagem" id="" cols="0" rows="10" class="contact__input" required></textarea>
+                        <input type="hidden" name="_captcha" value="false" />
+                        <input
+                            type="hidden"
+                            name="_next"
+                            value="./obrigado.html"
+                        />
+                        <button type="submit" class="contact__button button">Enviar Mensagem</button>
+                        </form>
+
                 </div>
             </section>
         </main>
